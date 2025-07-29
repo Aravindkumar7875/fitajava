@@ -15,7 +15,7 @@ public class FirstClass {
 		
 		//modulus % operator gives reminder 
 		//divide / operator gives quotient
-		int num = 10;
+		int num = 0;
 		
 		int res = num%2;
 		System.out.println(res);
@@ -25,6 +25,16 @@ public class FirstClass {
 		}
 		else {
 			System.out.println("odd");
+		}
+		
+		if(num > 0) {
+			System.out.println("positive");
+		}
+		else if (num <0) {
+			System.out.println("Negative");
+		}
+		else {
+			System.out.println("Number is zero");
 		}
 	}
 
