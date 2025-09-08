@@ -19,19 +19,16 @@ public class PrimitiveClass {
 //		System.out.println(c);
 //	
 		
-		char ch = 'Z';
-		int num = ch;
+
 		
-	System.out.println("Num" + num);
-		
-		byte by = 65;
-		char chr = (char) by;
-		System.out.println(chr);
-		
-		char chd;
-		
-		//while()
-		
+    byte by = 65;              // 'A'
+    char ch = (char) by;   // Convert byte to char
+    System.out.println(ch);
+    char end = 'Z';          
+
+    for (char c = ch; c <= end; c++) {
+        System.out.print(c + " ");
+    }
 		
 		
 	}
